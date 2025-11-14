@@ -35,9 +35,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// ============================================
-// MONGODB CONNECTION
-// ============================================
+
 
 mongoose
   .connect(process.env.MONGODB_URI, {
