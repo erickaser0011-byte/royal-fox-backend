@@ -181,6 +181,8 @@ const corsOptions = {
     "http://localhost:3000",
     "http://localhost:5173",
     "http://localhost:5174",
+    "https://royal-fox.vercel.app",
+    "https://royal-fox-admin.vercel.app", 
   ],
   optionsSuccessStatus: 200,
   credentials: true,
