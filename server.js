@@ -181,6 +181,8 @@ const corsOptions = {
     "http://localhost:3000",
     "http://localhost:5173",
     "http://localhost:5174",
+    "https://royal-fox-admin.vercel.app/",
+    "https://royal-fox.vercel.app/",
   ],
   optionsSuccessStatus: 200,
   credentials: true,
@@ -429,7 +431,6 @@ app.post("/api/applications", upload, async (req, res) => {
     // Generate ID
     const applicationId = `RF-${Date.now()}`;
     console.log("✓ Application ID:", applicationId);
-
 
     // Create application document
     console.log("✓ Creating MongoDB document...");
