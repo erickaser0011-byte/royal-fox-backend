@@ -430,9 +430,6 @@ app.post("/api/applications", upload, async (req, res) => {
     const applicationId = `RF-${Date.now()}`;
     console.log("✓ Application ID:", applicationId);
 
-    const employmentHistory = formData.employmentHistory
-      ? JSON.parse(formData.employmentHistory)
-      : [];
 
     // Create application document
     console.log("✓ Creating MongoDB document...");
